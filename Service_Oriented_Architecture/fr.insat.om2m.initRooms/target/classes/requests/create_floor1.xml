@@ -1,0 +1,4 @@
+<m2m:ae xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="Floor_1">
+    <api>floor-1</api>
+    <rr>false</rr>
+</m2m:ae>

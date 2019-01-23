@@ -1,0 +1,3 @@
+<m2m:cin xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="Temperature_Sensor">
+    <con>Temperature sensor</con>
+</m2m:cin>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/julienchouvet/AndroidStudioProjects/android-BluetoothLeGatt-master/Application/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/julienchouvet/AndroidStudioProjects/android-BluetoothLeGatt-master/Application/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/julienchouvet/AndroidStudioProjects/android-BluetoothLeGatt-master/Application/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/Users/julienchouvet/AndroidStudioProjects/android-BluetoothLeGatt-master/Application/src/main/res/menu/gatt_services.xml"
+    }
+]

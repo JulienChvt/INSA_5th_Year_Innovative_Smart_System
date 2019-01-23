@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="386dp"
+        android:layout_height="572dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:paddingBottom="1000dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_marginBottom="202dp"
+            android:layout_marginStart="37dp"
+            android:text="@string/resultat"
+            android:textAlignment="center"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView7"
+            android:layout_margin="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:text="@string/var"
+            android:textColor="@color/bright_foreground_disabled_material_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="22dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/ret"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nn"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="79dp"
+            android:layout_marginEnd="26dp"
+            android:text="@string/text1"
+            android:textColor="?android:attr/colorActivatedHighlight"
+            android:textSize="30sp"
+            android:layout_above="@+id/textView7"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

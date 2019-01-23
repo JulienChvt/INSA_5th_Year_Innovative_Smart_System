@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="371dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:paddingBottom="1000dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="28dp"
+            android:text="Fréquence moyenne:"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="40sp"
+            android:translationY="-8dp" />
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:text="Exit"
+            android:textSize="14sp"
+            android:translationY="10dp" />
+
+        <Button
+            android:id="@+id/button_new_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Nouveau Test"
+            android:textSize="14sp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="50dp"
+            android:layout_toStartOf="@+id/button_exit"
+            android:text="He"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:translationX="90dp"
+            android:translationY="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/button_new_test"
+            android:layout_alignTop="@+id/textView2"
+            android:translationX="80dp"
+            android:translationY="-70dp"
+            app:srcCompat="@mipmap/ic_heart" />
+
+    </RelativeLayout>
+
+</LinearLayout>

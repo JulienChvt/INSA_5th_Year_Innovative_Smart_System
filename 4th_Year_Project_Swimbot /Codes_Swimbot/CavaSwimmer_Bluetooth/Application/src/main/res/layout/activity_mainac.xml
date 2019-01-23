@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_height="wrap_content"
+    android:id="@+id/mainLayout"
+    android:background="@color/common_google_signin_btn_text_light_pressed">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:paddingBottom="1000dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_height="wrap_content"
+                android:text="@string/text1"
+                android:textColor="#e20461"
+                android:textSize="30sp"
+                android:layout_alignBottom="@+id/textView8"
+                android:layout_marginBottom="42dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="0dp"
+                android:minWidth="1000dp"
+                android:width="1000dp"
+                android:layout_width="300dp"
+                android:translationX="-22dp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_height="wrap_content"
+                android:text="@string/resultat"
+                android:textAlignment="center"
+                android:textSize="80sp"
+                android:textStyle="bold"
+                android:layout_marginStart="53dp"
+                android:layout_centerVertical="true"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_weight="0.01"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="0dp"
+                android:layout_width="wrap_content"
+                android:translationY="110dp"
+                android:translationX="20dp"
+                android:textColor="#ff006b" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:layout_alignTop="@+id/textView7"
+                android:layout_marginBottom="25dp"
+                android:text="@string/var"
+                android:textColor="#e20461"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="0dp"
+                android:layout_alignEnd="@+id/textView4"
+                android:translationX="80dp"
+                android:layout_weight="0.01"
+                android:translationY="-20dp" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="9dp"
+            android:layout_width="600dp"
+            android:layout_height="600dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.03"
+            android:layout_marginTop="280dp"
+            android:weightSum="1">
+
+            <Button
+                android:text="Moyenne"
+                android:id="@+id/button5"
+                android:layout_weight="1"
+                android:translationY="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

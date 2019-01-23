@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/julienchouvet/AndroidStudioProjects/android-BluetoothLeGatt-master/Application/build/intermediates/res/merged/debug/mipmap-xxhdpi/background_img.png",
+        "source": "/Users/julienchouvet/AndroidStudioProjects/android-BluetoothLeGatt-master/Application/src/main/res/mipmap-xxhdpi/background_img.png"
+    },
+    {
+        "merged": "/Users/julienchouvet/AndroidStudioProjects/android-BluetoothLeGatt-master/Application/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/julienchouvet/AndroidStudioProjects/android-BluetoothLeGatt-master/Application/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
